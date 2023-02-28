@@ -25,7 +25,7 @@ function Registration({
 					<div>Перейти в профиль</div>
 				) : (
 					<div className="p-[20px] [&>div]:mb-[20px]">
-						<div className="font-sans text-xl font-bold text-[15px] text-center">
+						<div className="font-sans font-bold text-[24px] text-center">
 							Для авторизации введите Email и пароль
 						</div>
 						<Form

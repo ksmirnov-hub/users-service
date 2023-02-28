@@ -70,7 +70,7 @@ function Registration({
 				) : (
 					<div className="p-[20px] [&>div]:mb-[20px]">
 
-						<div className="font-sans text-2xl font-bold text-[15px] text-center">Форма регистрации</div>
+						<div className="font-sans font-bold text-[24px] text-center">Форма регистрации</div>
 						<Form
 							name="basic"
 							labelCol={{ span: 8 }}

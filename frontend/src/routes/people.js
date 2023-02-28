@@ -38,7 +38,7 @@ function People({
 								const format = moment(person.birthdate).format('DD-MMM-YYYY');
 								const age = moment().diff(moment(person.birthdate).format('DD-MMM-YYYY'), 'years');
 								return (
-									<div className="flex flex-row justify-between border-[#413839]">
+									<div className="flex flex-row justify-between border-[#413839]" key={person._id}>
 										<div className="flex flex-col justify-center font-bold text-[24px]">
 											<div>{person.name}</div>
 											<div className="flex flex-row justify-left font-bold text-[24px]">

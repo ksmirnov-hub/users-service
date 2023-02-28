@@ -30,7 +30,7 @@ function App({
 	useEffect(() => {
 		if (!isAuth) {
 			setIsAuthenticated(false);
-			const token = localStorage.getItem('token');
+			const token = JSON.parse(localStorage.getItem('token'));
 			if (token) {
 				checkCredentials({id: token})
 			}
